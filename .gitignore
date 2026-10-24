@@ -1,0 +1,71 @@
+# ============================================================
+# Entorno virtual de Python
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Nota: `python -m venv .venv` genera ademas un .gitignore interno
+# que ignora todo el contenido del directorio. La declaracion
+# anterior lo cubre por si el entorno se crea con otra herramienta.
+
+# ============================================================
+# Bytecode y empaquetado
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ============================================================
+# Salidas y artefactos temporales
+# ============================================================
+*.log
+*.out
+*.tmp
+.cache/
+
+# ============================================================
+# Entornos de pruebas y analisis estatico
+# ============================================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ============================================================
+# Sistemas operativos
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# Editores y entornos de desarrollo
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.settings/
+.project
+.pydevproject/

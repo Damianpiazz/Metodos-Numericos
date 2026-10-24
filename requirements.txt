@@ -1,0 +1,31 @@
+# ============================================================
+# Dependencias del proyecto
+# Instalar con:  pip install -r requirements.txt
+# ============================================================
+#
+# Fijadas a las versiones con las que se verifico la ejecucion
+# completa de los tres notebooks. Python 3.14.8.
+#
+# Uso:
+#   errores.ipynb                -> numpy, pandas, matplotlib
+#   raices.ipynb                 -> numpy, pandas, matplotlib
+#   sistemas-de-ecuaciones.ipynb -> numpy, pandas, matplotlib, sympy
+#
+# `math` y `IPython` se distribuyen con el interprete y con el
+# kernel de Jupyter respectivamente; no requieren instalacion
+# independiente.
+
+# ------------------------------------------------------------
+# Bibliotecas numericas y de visualizacion
+# ------------------------------------------------------------
+numpy==2.5.4
+pandas==3.1.0
+matplotlib==3.11.2
+sympy==1.14.0
+
+# ------------------------------------------------------------
+# Ejecucion de notebooks
+# ------------------------------------------------------------
+ipykernel==7.4.0
+jupyterlab==4.6.4
+nbconvert==7.17.2
